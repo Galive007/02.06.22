@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=.9">
+
+    <meta name="title" content="02.06.22">
+    <meta name="description" content="Personal portfolio">
+    <meta name="keywords" content="personal portfolio, personal portfolio website, personal portfolio sites">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="5 days">
+    <meta name="author" content="md.alamin">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Index!</title>
+  </head>
+  <body>
+
+<section>
+  <!-- Carousel start -->
+  <div class="container mt-5">
+    <h3 class="text-center">Carousel</h3>
+      <div id="Caro_Ex" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#Caro_Ex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#Caro_Ex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#Caro_Ex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="images/slide1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-3">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/slide2.jpg" class="d-block w-100" alt="Food">
+            <div class="carousel-caption mb-3">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/slide3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-3">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+ <!--  <button class="carousel-control-prev" type="button" data-bs-target="#Caro_Ex" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#Caro_Ex" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> -->
+        </div>
+
+      </div>
+<!-- Carousel End -->
+
+<!-- collapse start -->
+
+      <div class="container border my-3">
+        <div class="row">
+          <h3 class="mt-2 text-center">Collapse</h3>
+          <div class="col-4">
+            <div class="row">
+              <div class="col-12">
+                <p>
+              <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#colla_Ex" aria-expanded="false" aria-controls="colla_Ex">
+                Toggle width collapse
+              </button>
+            </p>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="colla_Ex">
+                <div class="card card-body" style="width: 300px;">
+                  This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-8">
+            <p>
+              <a class="btn btn-primary mb-2" data-bs-toggle="collapse" href="#Multi_Colps_1" role="button" aria-expanded="false" aria-controls="Multi_Colps_1">Toggle first element</a>
+              <button class="btn btn-primary mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#Multi_Colps_2" aria-expanded="false" aria-controls="Multi_Colps_2">Toggle second element</button>
+              <button class="btn btn-primary mb-2" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="Multi_Colps_1 Multi_Colps_2">Toggle both elements</button>
+            </p>
+            <div class="row">
+              <div class="col">
+                <div class="collapse multi-collapse" id="Multi_Colps_1">
+                  <div class="card card-body">
+                    Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="collapse multi-collapse" id="Multi_Colps_2">
+                  <div class="card card-body">
+                    Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- collapse end -->
+<!-- List group start -->
+      <div class="container mt-2 mb-3">
+        <h3 class="text-center">List Group</h3>
+        <div class="row">
+          <div class="col-6">
+            <div class="list-group">
+                  <label class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="">
+                    First checkbox
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="">
+                    Second checkbox
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="">
+                    Third checkbox
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="">
+                    Fourth checkbox
+                  </label>
+                  <label class="list-group-item">
+                    <input class="form-check-input me-1" type="checkbox" value="">
+                    Fifth checkbox
+                  </label>
+                </div>
+          </div>
+          <div class="col-6">
+            <div class="list-group">
+              <label class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="">
+                First checkbox
+              </label>
+              <label class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="">
+                Second checkbox
+              </label>
+              <label class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="">
+                Third checkbox
+              </label>
+              <label class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="">
+                Fourth checkbox
+              </label>
+              <label class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="">
+                Fifth checkbox
+              </label>
+            </div>
+          </div>
+        </div>
+            
+      </div>
+<!-- list group end -->
+<!-- Modal start -->
+<div class="container border p-2">
+      <h3 class="text-center">Modal</h3>
+  <div class="row">
+    <div class="d-flex justify-content-center">
+      <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#S_backdrop">
+            Launch static backdrop modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="S_backdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="s_b_l" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="s_b_l">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                   <h6> Some placeholder content for the second collapse component of this multi-collapse example.</h6>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Wait</button>
+                </div>
+              </div>
+            </div>
+          </div>
+ 
+    <div class="d-flex mx-2">
+        <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#S_backdrop">
+            Launch static backdrop modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="S_backdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="s_b_l" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="s_b_l">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body max-height">
+                   <h6> Some placeholder content for the second collapse component of this multi-collapse example.                   <p>
+                     Some placeholder content for the second collapse component of this multi-collapse example.
+                  Some placeholder content for the second collapse component of this multi-collapse example.
+                  Some placeholder content for the second collapse component of this multi-collapse example.
+                   </p></h6>
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Wait</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    
+  </div>
+  
+</div>
+</div>
+<!-- Modal end -->
+<!-- navber start -->
+<div class="container border my-3">
+  <h3 class="text-center">Navbar</h3>
+  <div>
+    <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="bootstrap-5-1.svg" alt="" width="30" height="24" class="d-inline-block align-text-center">
+              Bootstrap
+            </a>
+          </div>
+    </nav>
+  </div>
+
+    <div class="my-2">
+            <nav class="navbar bg-light fixed-top ">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+              <img src="bootstrap-5-1.svg" alt="" width="30" height="24" class="d-inline-block align-text-center">
+              Bootstrap
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                      <li><a class="dropdown-item" href="index.html">Action</a></li>
+                      <li><a class="dropdown-item" href="index.html">Another action</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+</div>
+<!-- navber end -->
+<!-- nav&tab start -->
+<div class="container border my-3">
+  <h3 class="text-center">Navs & tabs</h3>
+          <ul class="nav nav-pills mb-3 mt-3 ms-auto nav-justified" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-home*1" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-2" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-contact-3" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#pills-disabled" type="button" role="tab" aria-controls="pills-disabled" aria-selected="false" disabled>Disabled</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-1" tabindex="0"><img src="images/kfc1.jpg"> <br>Some placeholder content for the second collapse component of this multi-collapse example.</div>
+          <div class="tab-pane fade text-center" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-2" tabindex="0"><img src="images/kfc1.jpg"> <br>Some placeholder content for the second collapse component of this multi-collapse example.</div>
+          <div class="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-3" tabindex="0">Some placeholder content for the second collapse component of this multi-collapse example.</div>
+          <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+        </div>
+</div>
+<div class="container border my-3">
+  <h3 class="text-center">Navs & tabs</h3>
+  <div class="d-flex align-items-start">
+  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+    <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Disabled</button>
+    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false" disabled>Settings</button>
+  </div>
+  <div class="tab-content" id="v-pills-tabContent">
+    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">Some placeholder content for the second collapse component of this multi-collapse example.</div>
+    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0"><img src="images/kfc1.jpg"> <br>Some placeholder content for the second collapse component of this multi-collapse example.</div>
+    <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0"><img src="images/kfc1.jpg"> <br>Some placeholder content for the second collapse component of this multi-collapse example.</div>
+    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
+  </div>
+  </div>
+</div>
+<!-- nav&tab end -->
+<!-- offcanvas start -->
+      <div class="container border my-2 rounded-pill">
+        <h3 class="text-center">Offcanvas Right</h3>
+        <div class="row text-center my-3">
+          <div class="col-12">
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas_r" aria-controls="offcanvas_r">Toggle right offcanvas</button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas_r" aria-labelledby="offcanvas_r_l">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvas_r_l">Offcanvas right</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                   Toggle right offcanvas
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+<!-- offcanvas end -->
+<!-- Pagination start -->
+    <div class="container border my-2">
+      <h3 class="text-center">Pagination</h3>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center my-2">
+            <li class="page-item">
+              <a class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+<!-- Pagination end -->
+<!-- Palaceholder start -->
+    <div class="container border my-2">
+      <h3 class="text-center">Palaceholder</h3>
+        <div class="row">
+          <div class="col-4">
+            <div class="card" aria-hidden="true">
+          <img src="images/slide3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-7"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-8"></span>
+            </p>
+            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+          </div>
+        </div>
+            
+          </div>
+           <div class="col-4">
+            <div class="card" aria-hidden="true">
+          <img src="images/slide1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-7"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-8"></span>
+            </p>
+            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+          </div>
+        </div>
+            
+          </div>
+           <div class="col-4">
+            <div class="card" aria-hidden="true">
+          <img src="images/slide2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title placeholder-glow">
+              <span class="placeholder col-6"></span>
+            </h5>
+            <p class="card-text placeholder-glow">
+              <span class="placeholder col-7"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-4"></span>
+              <span class="placeholder col-6"></span>
+              <span class="placeholder col-8"></span>
+            </p>
+            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+          </div>
+        </div>
+            
+          </div>
+        </div>
+    </div>
+<!-- Palaceholder end -->
+<!-- Tooltips start -->
+    <div class="container border my-2">
+      <h3 class="text-center">Tooltips</h3>
+        <div class="d-flex justify-content-center my-2">
+          <button type="button" class="btn btn-secondary"
+            data-bs-toggle="tooltip" data-bs-placement="top"
+            data-bs-custom-class="custom-tooltip"
+            title="This top tooltip is themed via CSS variables.">
+              Custom tooltip
+          </button>
+        </div>
+    </div>
+<!-- Tooltips end -->
+
+
+
+
+</section>
+
+
+   
+
+    <!-- JS -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
